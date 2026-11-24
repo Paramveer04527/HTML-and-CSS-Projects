@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body class="bg-black text-white w-screen">
+    <nav class="flex justify-between items-center p-7 pl-10 pr-10 sticky-top w-auto h-auto bg">
+        <div class="flex items-center gap-2 ml-5 font-light">
+            <img src="logo.png" alt="" class="w-10 h-10 ">
+            <h3>Course Page</h3>
+        </div>
+        <div class="flex items-center justify-between gap-15 text-lg mr-10 font-normal">
+            <a href="#" class="text-white hover:text-green-500">Home</a>
+            <a href="#" class="text-white hover:text-green-500">Courses</a>
+            <a href="#" class="text-white hover:text-green-500">Classroom</a>
+            <a href="#" class="text-white hover:text-green-500">Contact</a>
+            <h4><i class="ri-notification-2-fill text-white"></i></h4>
+            <h4><i class="ri-user-fill text-white"></i></h4>
+        </div>
+    </nav>
+
+    <section class="courseAbout flex justify-between mr-20">
+        <!-- course description -->
+        <div class="course-desc">
+            <!-- Heading -->
+            <div class="mt-10 ml-15">
+                <h2 class="text-4xl font-bold mb-4">2.0 Job Ready AI Powered Cohort: <br> Complete Web Development +
+                    <br> DSA + Gen-AI + Aptitude
+                </h2>
+            </div>
+            <!-- Options -->
+            <div class="flex flex-wrap gap-2 ml-15 mt-5">
+                <div
+                    class="border-2 border-gray-900 bg-gray-950 w-30 h-10 flex items-center justify-center font-bold text-sm">
+                    <h4>MERN Stack</h4>
+                </div>
+                <div
+                    class="border-2 border-gray-900 bg-gray-950 w-30 h-10 flex items-center justify-center font-bold text-sm">
+                    <h4>DSA With JS</h4>
+                </div>
+                <div
+                    class="border-2 border-gray-900 bg-gray-950 w-30 h-10 flex items-center justify-center font-bold text-sm">
+                    <h4>AI Powered</h4>
+                </div>
+                <div
+                    class="border-2 border-gray-900 bg-gray-950 w-55 h-10 flex items-center justify-center font-bold text-sm">
+                    <h4>Personality Development</h4>
+                </div>
+                <div
+                    class="border-2 border-gray-900 bg-gray-950 w-50 h-10 flex items-center justify-center font-bold text-sm">
+                    <h4>Aptitude & Reasoning</h4>
+                </div>
+            </div>
+            <!-- Price -->
+            <div class="gap-2 ml-15 mt-5">
+                <h2 class="font-bold text-2xl">Price <Span class="text-green-600 text-medium font-bold">₹ 5999</Span>
+                    <span class="text-sm"><del class="text-gray-500">₹ 11999</del> (+GST)</span>
+                </h2>
+                <h2 class="font-bold text-sm text-green-600">Scratch Card In The End!</h2>
+            </div>
+            <!-- Buttons -->
+            <div class="flex gap-2 ml-15 mt-3">
+                <button type="button"
+                    class="bg-green-600 w-40 h-10 flex items-center justify-center font-bold rounded-sm text-sm"
+                    target="_blank">
+                    Enroll Now
+                </button>
+                <button type="button"
+                    class="bg-gray-900 w-40 h-10 flex items-center justify-center font-bold rounded-sm text-sm"
+                    target="_blank">
+                    View Syllabus
+                </button>
+            </div>
+            <h2 class="ml-15 text-sm mt-2 font-bold">Batch Starts on <span class="text-green-600">20th September
+                    2026</span></h2>
+        </div>
+        <!-- Video Banner -->
+        <div class="mt-10 w-220 bg-white/30 backdrop-blur-md rounded-sm flex flex-col items-center h-120">
+            <div id="play" class="text-8xl">
+                <i class="ri-circle-line absolute top-45 right-78"></i>
+                <i class="ri-play-fill text-white text-6xl absolute top-49 right-81"></i>
+            </div>
+            <img src="https://www.spec-india.com/wp-content/uploads/2020/06/Full_Stack.png" alt=""
+            class="w-160 h-100 rounded-md mt-12">
+            <!-- Course Info -->
+            <div class=" w-auto h-30 flex items-center gap-2 p-3 text-start text-sm rounded-b-sm flex-nowrap">
+                <div class="bg-black font-bold flex items-center justify-center h-8 w-35 rounded-lg border-2 border-gray-900 bg-gray-950">
+                    <h2>Language: <span class="text-green-600">English</span></h2>
+                </div>
+                <div class="bg-black font-bold flex items-center justify-center h-8 w-30 rounded-lg border-2 border-gray-900 bg-gray-950">
+                    <h2>Certificate: <span class="text-green-600">Yes</span></h2>
+                </div>
+                <div class="bg-black font-bold flex items-center justify-start h-8 w-50 rounded-lg border-2 border-gray-900 bg-gray-950">
+                    <h2 class="ml-2">Schedule: <span class="text-green-600">Mon-Sat</span> (8:30PM)</h2>
+                </div>
+                <div class="bg-black font-bold flex items-center justify-start h-8 w-50 rounded-lg border-2 border-gray-900 bg-gray-950">
+                    <h2 class="ml-2">Total Content: <span class="text-green-600">250+ Hours</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="getPlaced flex justify-center items-center flex-col mt-20 lex-nowrap ">
+        <h1 class="text-[11em] font-bold bg-cover bg-center bg-clip-text text-transparent"
+            style="background-image: url('Screenshot 2026-09-06 223648.png');">Get Placed.</h1>
+        <h3 class="text-[50px]">With Job Ready AI Powered Cohort</h3>
+    </section>
+
+    <section class="about flex items-center justify-center gap-50 mt-20 items-center flex-nowrap">
+        <div class="hours text-center border-5 w-60 h-50 flex items-center justify-center font-bold text-sm rounded-[60px]"
+            style="border-image: url('Screenshot 2026-09-06 223648.png'); border-image-slice: 30;">
+            <h1 class="text-6xl font-bold bg-clip-text bg-cover bg-center text-transparent"
+                style="background-image: url('Screenshot 2026-09-06 223648.png');">260+ <br>
+                <span class="text-4xl">Hours</span>
+            </h1>
+        </div>
+        <div class="lectures text-center border-5 border-img w-60 h-50 flex items-center justify-center font-bold text-sm rounded-[60px]"
+            style="border-image: url('Screenshot 2026-09-06 223648.png'); border-image-slice: 30;">
+            <h1 class="text-6xl font-bold bg-clip-text bg-cover bg-center text-transparent"
+                style="background-image: url('Screenshot 2026-09-06 223648.png');">180+
+                <span class="text-4xl">Lectures</span>
+            </h1>
+        </div>
+        <div class="questions text-center border-5 w-60 h-50 flex items-center justify-center font-bold text-sm rounded-[60px]"
+            style="border-image: url('Screenshot 2026-09-06 223648.png'); border-image-slice: 30;">
+            <h1 class="text-6xl font-bold bg-clip-text bg-cover bg-center text-transparent"
+                style="background-image: url('Screenshot 2026-09-06 223648.png');">1000+
+                <span class="text-4xl">Questions</span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="whatsNew flex items-center justify-center flex-col">
+        <h1 class="text-9xl font-bold mt-30">What's New ?</h1>
+        <h3 class="text-[30px] mt-2">What Makes <span class="text-green-600">The Next Big Thing</span> Better Than the
+            Rest?</h3>
+        <h1 class="text-6xl font-bold mt-50">The Difference</h1>
+        <hr class="w-60 mt-3 text-pink-800">
+        <div class="flex items-center justify-center w-320 h-150 bg-black mt-15 rounded-[30px] border-2 border-gray-700 gap-3">
+            <!-- Our courses -->
+            <div class="h-140 w-152 rounded-[30px] flex-nowrap border-2 border-green-500 shadow-xl shadow-green-950">
+                <div class="flex items-start justify-start p-5 ml-3 mb-4">
+                    <h1 class="text-5xl"><i class="ri-bard-line mr-3 text-pink-700"></i>Our Courses</h1>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Daily live, interactive sessions by industry experts</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2 mr-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Complete placement-focused ecosystem (Full Stack, DSA,
+                            GenAI, Aptitude &amp; Reasoning)</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Learn modern industry tools</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Instant doubt resolution via Discord</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">AI-powered tools and real-world projects.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Industry-relevant projects and assignments</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2 mr-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Active peer-to-peer and mentor-led learning community</p>
+                    </div>
+                </div>
+            </div>
+            <!-- others -->
+            <div class="h-140 w-152 flex-nowrap">
+                <div class="flex items-center justify-start p-5 ml-3 mb-4 gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-layers  aspect-square text-white" aria-hidden="true">
+                        <path
+                            d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+                        </path>
+                        <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+                        <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+                    </svg>
+                    <h1 class="text-5xl">Others</h1>
+
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Daily live, interactive sessions by industry experts</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2 mr-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Complete placement-focused ecosystem (Full Stack, DSA,
+                            GenAI, Aptitude &amp; Reasoning)</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Learn modern industry tools</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Instant doubt resolution via Discord</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">AI-powered tools and real-world projects.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Industry-relevant projects and assignments</p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-2 mr-2">
+                    <div class="flex items-center md:items-start gap-3 py-3"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-circle-check text-[green] shrink-0 md:mt-1" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                        <p class="text-xl md:text-[1.3rem]">Active peer-to-peer and mentor-led learning community</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="joinUs flex justify-center items-center flex-col mt-40">
+        <h1 class="text-9xl font-bold bg-cover bg-center bg-clip-text text-transparent"
+            style="background-image: url('https://static.vecteezy.com/system/resources/previews/030/514/058/non_2x/green-background-with-gradient-concept-vector.jpg');">
+            Start Your Tech</h1>
+        <h3 class="text-6xl font-bold mt-1">Career With Us!</h3>
+        <a href="#" class="bg-green-800 w-50 h-10 mt-10 rounded-sm font-bold flex items-center justify-center">Buy Now</a>
+    </section>
+
+    <footer class="flex items-start justify-between mt-50 mb-10">
+        <!-- Social Icons -->
+        <div class="left">
+            <div class="mt-[52px] flex items-center gap-[31px] p-10">
+                <!-- Instagram -->
+                <a href="#" class="transition-opacity duration-200 hover:opacity-50">
+                    <svg class="h-[25px] w-[25px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="2.5" />
+
+                        <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2.5" />
+
+                        <circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" />
+                    </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="#" class="transition-opacity duration-200 hover:opacity-50">
+                    <svg class="h-[25px] w-[25px]" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+
+                        <rect x="6.5" y="10" width="2.5" height="7" fill="black" />
+
+                        <circle cx="7.75" cy="7.5" r="1.4" fill="black" />
+
+                        <path d="
+                                    M12 10H14.3V11
+                                    C14.9 10.1 15.8 9.6 17 9.6
+                                    C19.3 9.6 20 11.1 20 13.5
+                                    V17H17.5V13.9
+                                    C17.5 12.6 17.1 11.8 16.1 11.8
+                                    C15.1 11.8 14.5 12.5 14.5 13.9
+                                    V17H12V10Z
+                                    " fill="black" />
+                    </svg>
+                </a>
+                <!-- Discord -->
+                <a href="#" class="transition-opacity duration-200 hover:opacity-50">
+                    <svg class="h-[28px] w-[28px]" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="
+                                    M19.54 5.35
+                                    A16.9 16.9 0 0 0 15.5 4
+                                    L15 5
+                                    A14.7 14.7 0 0 0 9 5
+                                    L8.5 4
+                                    A16.9 16.9 0 0 0 4.46 5.35
+                                    C2.1 8.87 1.46 12.3 1.78 15.68
+                                    A16.7 16.7 0 0 0 6.9 18.25
+                                    L8.1 16.65
+                                    C7.42 16.42 6.76 16.12 6.15 15.75
+                                    L6.65 15.35
+                                    C10.4 17.1 13.6 17.1 17.3 15.35
+                                    L17.8 15.75
+                                    C17.2 16.12 16.54 16.42 15.86 16.65
+                                    L17.06 18.25
+                                    A16.7 16.7 0 0 0 22.22 15.68
+                                    C22.54 12.3 21.9 8.87 19.54 5.35Z
+
+                                    M8.5 13.5
+                                    C7.65 13.5 6.95 12.7 6.95 11.7
+                                    C6.95 10.7 7.65 9.9 8.5 9.9
+                                    C9.35 9.9 10.05 10.7 10.05 11.7
+                                    C10.05 12.7 9.35 13.5 8.5 13.5Z
+
+                                    M15.5 13.5
+                                    C14.65 13.5 13.95 12.7 13.95 11.7
+                                    C13.95 10.7 14.65 9.9 15.5 9.9
+                                    C16.35 9.9 17.05 10.7 17.05 11.7
+                                    C17.05 12.7 16.35 13.5 15.5 13.5Z
+                                " />
+                    </svg>
+                </a>
+                <!-- YouTube -->
+                <a href="#" class="transition-opacity duration-200 hover:opacity-50">
+                    <svg class="h-[28px] w-[28px]" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="
+                                    M23.5 6.2
+                                    C23.2 4.9 22.2 3.9 20.9 3.6
+                                    C18.5 3 12 3 12 3
+                                    S5.5 3 3.1 3.6
+                                    C1.8 3.9 .8 4.9 .5 6.2
+                                    C0 8.6 0 12 0 12
+                                    S0 15.4 .5 17.8
+                                    C.8 19.1 1.8 20.1 3.1 20.4
+                                    C5.5 21 12 21 12 21
+                                    S18.5 21 20.9 20.4
+                                    C22.2 20.1 23.2 19.1 23.5 17.8
+                                    C24 15.4 24 12 24 12
+                                    S24 8.6 23.5 6.2Z
+                                " />
+
+                        <path d="M9.6 16L16 12L9.6 8V16Z" fill="black" />
+                    </svg>
+                </a>
+                <!-- X -->
+                <a href="#" class="transition-opacity duration-200 hover:opacity-50">
+                    <svg class="h-[26px] w-[26px]" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="
+                                    M18.9 2H22.6L14.5 11.25L24 22H16.55
+                                    L10.72 15.42L4.95 22H1.25L9.55 12.52L0 2H7.64
+                                    L12.91 7.98L18.9 2ZM17.6 20.1H19.65L6.5 3.8H4.3
+                                    L17.6 20.1Z
+                                " />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <!-- Others -->
+        <div class="right flex">
+            <!-- About -->
+            <div class="mr-20">
+                <h3 class="text-[15px] font-medium uppercase">
+                    About
+                </h3>
+                <ul class="mt-[30px] space-y-[17px]">
+                    <li>
+                        <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                            Support
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                            Pricing and Refund
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                            Terms and Condition
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Company -->
+            <div class="mr-20">
+                    <h3 class="text-[15px] font-medium uppercase">
+                        Company
+                    </h3>
+                    <ul class="mt-[30px] space-y-[17px]">
+                        <li>
+                            <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                                Resume Checker
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                                Hire From Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                                Discord
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                                Jobs
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                                Submit Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-[15px] text-neutral-400 hover:text-green-500">
+                                Feedback
+                            </a>
+                        </li>
+
+                    </ul>
+            </div>
+            <!-- Contact -->
+            <div class="mr-5">
+                    <h3 class="text-[15px] font-medium uppercase">
+                        Contact
+                    </h3>
+                    <div class="mt-[30px] space-y-[17px] text-[15px]">
+                        <p class="whitespace-nowrap text-neutral-400 hover:text-green-500">
+                            <span class="text-white ">Online:</span>
+                            10am - 10pm
+                            +91 9071433205
+                        </p>
+                        <p class="whitespace-nowrap text-neutral-400 hover:text-green-500">
+                            <span class="text-white">Offline:</span>
+                            11am - 8pm
+                            +91 9691778470
+                        </p>
+                        <a href="mailto:hello@sheryians.com" class="block text-neutral-400 hover:text-green-500">
+                            hello@sheryians.com
+                        </a>
+                        <p class="max-w-[390px] leading-[1.7] text-neutral-400 hover:text-green-500">
+                            23-B, Sector C Indrapuri,
+                            Bhopal (MP), 462023
+                        </p>
+                    </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
